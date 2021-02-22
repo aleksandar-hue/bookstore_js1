@@ -1,5 +1,5 @@
 /* PT Sans - svi stilovi (import sa fonts.google.com) */
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* Tema bazirana na: https://material.io/design/color/the-color-system.html#tools-for-picking-colors */
 
@@ -10,6 +10,7 @@
 a {
     text-decoration: none;
 }
+
 a.badge:hover {
     color: #D1C4E9;
 }
@@ -21,6 +22,7 @@ a.badge:hover {
 .header_container {
     background-color: #F5F5F5;
 }
+
 .close-modal {
     position: absolute;
     top: -1rem;
@@ -46,6 +48,7 @@ a.badge:hover {
     background-color: #F3E5F5;
     font-weight: bold;
 }
+
 
 #bookworm-modal, #help-tooltip {
     min-width: 20rem;
